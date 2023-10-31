@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/E-commerece-React-JS/static/css/main.745b7912.css",
-    "main.js": "/E-commerece-React-JS/static/js/main.f407ed22.js",
+    "main.css": "/E-commerece-React-JS/static/css/main.6c1bd356.css",
+    "main.js": "/E-commerece-React-JS/static/js/main.8427ac27.js",
     "static/js/787.dcc73137.chunk.js": "/E-commerece-React-JS/static/js/787.dcc73137.chunk.js",
     "static/media/h2.png": "/E-commerece-React-JS/static/media/h2.a08de3fff5f03bb8dca9.png",
     "static/media/h4.webp": "/E-commerece-React-JS/static/media/h4.4c50003f1b5b8a86a62f.webp",
@@ -20,12 +20,12 @@
     "static/media/fa-v4compatibility.woff2": "/E-commerece-React-JS/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "static/media/logo.svg": "/E-commerece-React-JS/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/E-commerece-React-JS/index.html",
-    "main.745b7912.css.map": "/E-commerece-React-JS/static/css/main.745b7912.css.map",
-    "main.f407ed22.js.map": "/E-commerece-React-JS/static/js/main.f407ed22.js.map",
+    "main.6c1bd356.css.map": "/E-commerece-React-JS/static/css/main.6c1bd356.css.map",
+    "main.8427ac27.js.map": "/E-commerece-React-JS/static/js/main.8427ac27.js.map",
     "787.dcc73137.chunk.js.map": "/E-commerece-React-JS/static/js/787.dcc73137.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.745b7912.css",
-    "static/js/main.f407ed22.js"
+    "static/css/main.6c1bd356.css",
+    "static/js/main.8427ac27.js"
   ]
 }
