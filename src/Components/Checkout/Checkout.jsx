@@ -23,7 +23,7 @@ export default function Checkout() {
         <div className="container  mt-4">
             {!done ? <div className={`border border-1  ${style.media}`}>
                 <div id='form-wrapper'>
-                    <form>
+                    <form onSubmit={dones}>
 
                         <div id='header' className='text-center mb-3'>
                             <h1>Time To Square Up!</h1>
@@ -60,7 +60,7 @@ export default function Checkout() {
                                 <label className='mb-0' for='ccv'>CCV</label>
                                 <input type='password' maxlength='5' minLength='5' required placeholder='* * *' className='form-control' id='ccv' />
                             </div>
-                            <button onClick={dones} className='btn btn-primary mt-4' type='submit'><i className="fas fa-lock mr-2"></i>Submit Payment</button>
+                            <button className='btn btn-primary mt-4' type='submit'><i className="fas fa-lock mr-2"></i>Submit Payment</button>
                         </div>
                     </form>
                 </div>

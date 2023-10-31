@@ -6,6 +6,7 @@ import { cartContext } from '../../Context/CartContext'
 import { authContext } from '../../Context/AuthContext'
 import { favariteContext } from '../../Context/FavariteContext'
 import navbarStyle from './Navbar.module.css'
+import $ from 'jquery'
 export default function Navbar() {
     let { countCarts, setcards, setcountCarts, setTotalPrice } = useContext(cartContext)
     let { userData, setData } = useContext(authContext)
@@ -23,6 +24,8 @@ export default function Navbar() {
         localStorage.clear()
         navigate('/login')
     }
+
+
     return <>
         <nav className={`navbar   navbar-expand-lg bg-light  p-0`}>
             <div className="container-fluid">
@@ -40,7 +43,7 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item text-center mt-2 text-secondary">
-                            <Link to='/favarite' className='text-secondary'>
+                            <Link to='/favarite' className='text-secondary' >
                                 <i className="fa-solid fa-heart"></i><span className='p-1 rounded-5 bg-primary text-light'>{countFav}</span>
                                 <p className='text-gray   fw-bold'>Lovers</p>
                             </Link>

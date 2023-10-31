@@ -6,7 +6,7 @@ export default function Footer() {
     return <>
         <section className="footer   pt-4 bg-white ">
             <div className="container ">
-                <div className="row offset-1 gx-5">
+                <div className="row ">
 
                     <div className="col-lg-4 col-md-6 ">
                         <div className="info  ">
@@ -27,20 +27,20 @@ export default function Footer() {
                         <p className=" fw-bold">Useful Links</p>
                         <ul className="p-0">
                             <li>
-                                <i className="fa-solid fa-arrow-right-long p-1 text-dark"></i>
 
-                                <Link to="/" className="text-decoration-none "> Home</Link>
+
+                                <Link to="/" className="text-decoration-none "><i className="fa-solid fa-arrow-right-long text-dark"></i> Home</Link>
                             </li>
                             <li className="pt-3">
-                                <i className="fa-solid fa-arrow-right-long p-1 text-dark"></i>
-                                <Link to='/headphone'>Head phones</Link>                            </li>
+
+                                <Link to='/headphone'><i className="fa-solid fa-arrow-right-long  text-dark"></i>  Head phones</Link>                            </li>
                             <li className="pt-3">
-                                <i className="fa-solid fa-arrow-right-long p-1 text-dark"></i>
-                                <Link to='/tvs' >Televisions</Link>                            </li>
+
+                                <Link to='/tvs' ><i className="fa-solid fa-arrow-right-long  text-dark"></i> Televisions</Link>                            </li>
 
                             <li className="pt-3">
-                                <i className="fa-solid fa-arrow-right-long p-1 text-dark"></i>
-                                <Link to='/camera'>Cameras</Link>                            </li>
+
+                                <Link to='/camera'><i className="fa-solid fa-arrow-right-long  text-dark"></i> Cameras</Link>   </li>
 
 
 
@@ -50,19 +50,19 @@ export default function Footer() {
                         <p className=" fw-bold">Useful Links</p>
                         <ul className="p-0">
                             <li className="">
-                                <i className="fa-solid fa-arrow-right-long p-1 text-dark"></i>
-                                <Link to='/personal'>Personal</Link>                            </li>
+
+                                <Link to='/personal'><i className="fa-solid fa-arrow-right-long  text-dark"></i> Personal</Link>                            </li>
 
                             <li className="pt-3">
-                                <i className="fa-solid fa-arrow-right-long p-1 text-dark"></i>
-                                <Link to='/computers'>Computers</Link>                            </li>
+
+                                <Link to='/computers'><i className="fa-solid fa-arrow-right-long text-dark"></i> Computers</Link>                            </li>
                             <li className="pt-3">
-                                <i className="fa-solid fa-arrow-right-long p-1 text-dark"></i>
-                                <Link to='/accessories'>Accessories</Link>                           </li>
+
+                                <Link to='/accessories'><i className="fa-solid fa-arrow-right-long  text-dark"></i> Accessories</Link>                           </li>
 
                             <li className="pt-3">
-                                <i className="fa-solid fa-arrow-right-long p-1 text-dark"></i>
-                                <Link to='/camera'>Cameras</Link>                            </li>
+
+                                <Link to='/camera'><i className="fa-solid fa-arrow-right-long p-1 text-dark"></i> Cameras</Link>                            </li>
 
 
 
@@ -72,19 +72,19 @@ export default function Footer() {
                         <p className=" fw-bold">User Linkes</p>
                         <ul className="p-0">
                             <li className="">
-                                <i className="fa-solid fa-arrow-right-long p-1 text-dark"></i>
-                                <Link to='/login'>Login</Link>                            </li>
+
+                                <Link to='/login'><i className="fa-solid fa-arrow-right-long  text-dark"></i> Login</Link>                            </li>
 
                             <li className="pt-3">
-                                <i className="fa-solid fa-arrow-right-long p-1 text-dark"></i>
-                                <Link to='/register'>Register</Link>                            </li>
+
+                                <Link to='/register'><i className="fa-solid fa-arrow-right-long  text-dark"></i> Register</Link>                            </li>
                             <li className="pt-3">
-                                <i className="fa-solid fa-arrow-right-long p-1 text-dark"></i>
-                                <Link to='/favarite'>Loves</Link>                           </li>
+
+                                <Link to='/favarite'><i className="fa-solid fa-arrow-right-long  text-dark"></i> Loves</Link>                           </li>
 
                             <li className="pt-3">
-                                <i className="fa-solid fa-arrow-right-long p-1 text-dark"></i>
-                                <Link to='/cart'>My cart</Link>                            </li>
+
+                                <Link to='/cart'><i className="fa-solid fa-arrow-right-long  text-dark"></i> My cart</Link>                            </li>
 
 
 

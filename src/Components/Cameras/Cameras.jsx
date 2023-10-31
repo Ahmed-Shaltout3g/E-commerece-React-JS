@@ -17,7 +17,7 @@ export default function Cameras() {
             <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
 
-        <div className="container mt-5">
+        {cameras?.length ? <div className="container mt-5">
 
             <div className="row g-4">
 
@@ -50,6 +50,8 @@ export default function Cameras() {
                         </div>
                     ))}
             </div>
-        </div>
+        </div> : <div className='spinner w-100 d-flex justify-content-center vh-100 align-items-center'><div className="spinner-grow size" role="status">
+            <span className="visually-hidden">Loading...</span></div></div>
+        }
     </>
 }
